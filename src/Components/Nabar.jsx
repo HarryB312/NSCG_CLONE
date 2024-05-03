@@ -2,7 +2,7 @@ import './Navbar.css'
 
 export default function Navbar(){
   return(
-    <div className="Nav">
+    <nav className="Nav">
       <a href="/">
       <img src="https://nscg-llc.com/wp-content/uploads/2020/12/North-South-Consulting-Group-232x134.jpg" alt="" />
       </a>
@@ -16,6 +16,7 @@ export default function Navbar(){
         <li>
         <a href="/Expertise">Expertise</a>
         </li>
+        <li>
         <svg width="1.5rem" height="1.5rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0_15_152)">
           <rect width="24" height="24" fill="white"/>
@@ -28,7 +29,8 @@ export default function Navbar(){
           </clipPath>
           </defs>
         </svg>
+        </li>
       </ul>
-    </div>
+    </nav>
   )
 }

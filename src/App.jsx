@@ -1,3 +1,4 @@
+import './App.css'
 import Navbar from './Components/Nabar'
 import Home from './Pages/Home'
 import About from './Pages/About'
@@ -12,12 +13,15 @@ export default function App(){
   return(
     <div className="app">
       <Navbar />
-      <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/About' element={<About/>}/>
-        <Route path='/Careers' element={<Careers/>}/>
-        <Route path='/Expertise' element={<Expertise/>}/>
-      </Routes>
+      <div className="content">
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/About' element={<About/>}/>
+          <Route path='/Careers' element={<Careers/>}/>
+          <Route path='/Expertise' element={<Expertise/>}/>
+        </Routes>
+      </div>
+      
     </div>
   )
 }
