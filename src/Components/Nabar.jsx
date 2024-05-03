@@ -1,13 +1,21 @@
-
+import './Navbar.css'
 
 export default function Navbar(){
   return(
-    <div className="Navbar">
+    <div className="Nav">
+      <a href="/">
       <img src="https://nscg-llc.com/wp-content/uploads/2020/12/North-South-Consulting-Group-232x134.jpg" alt="" />
+      </a>
       <ul>
-        <li>About Us</li>
-        <li>Careers</li>
-        <li>Expertise</li>
+        <li>
+          <a href="/About">About Us</a>
+        </li>
+        <li>
+        <a href="/Careers">Careers</a>
+        </li>
+        <li>
+        <a href="/Expertise">Expertise</a>
+        </li>
         <svg width="1.5rem" height="1.5rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0_15_152)">
           <rect width="24" height="24" fill="white"/>
