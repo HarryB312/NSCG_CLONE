@@ -1,0 +1,131 @@
+/* Home.css */
+
+.home {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* padding: 20px; */
+}
+
+.top-content-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.potential-jobs-container,
+.potential-partners-container {
+  flex-basis: 45%;
+}
+
+.potential-jobs-container,
+.potential-partners-container {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.potential-jobs-container button,
+.potential-partners-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.potential-jobs-container button:hover,
+.potential-partners-container button:hover {
+  background-color: #0056b3;
+}
+
+.expectations-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.row-1,
+.row-2,
+.row-3 {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.SBA {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.careers,
+.contact {
+  flex-basis: 45%;
+}
+   
+.careers button,
+.contact button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.careers button:hover,
+.contact button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  margin-top: 50px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+footer ul li:last-child {
+  margin-right: 0;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
