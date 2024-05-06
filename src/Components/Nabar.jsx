@@ -4,7 +4,7 @@ export default function Navbar(){
   return(
     <nav className="Nav">
       <a href="/">
-      <img src="https://nscg-llc.com/wp-content/uploads/2020/12/North-South-Consulting-Group-232x134.jpg" alt="" />
+      <img className='image' src="https://nscg-llc.com/wp-content/uploads/2020/12/North-South-Consulting-Group-232x134.jpg" alt="" />
       </a>
       <ul>
         <li>

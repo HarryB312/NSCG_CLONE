@@ -56,11 +56,17 @@ export default function Home(){
       <div className="bottom-container">
         <div className="careers">
           <h2>Work With NSCG</h2>
-          <button>Careers</button>
+          <Link to='/Careers'>
+            <button>Careers</button>
+          </Link>
+          
         </div>
         <div className="contact">
           <h2>Doing Business With NSCG</h2>
-          <button>Contact Us</button>
+          <Link to='/Contact'>
+            <button>Contact Us</button>
+          </Link>
+          
         </div>
       </div>
 
