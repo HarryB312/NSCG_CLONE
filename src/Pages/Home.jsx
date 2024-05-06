@@ -1,4 +1,5 @@
 import './Home.css'
+import { Link } from 'react-router-dom'
 
 export default function Home(){
   return(
@@ -8,12 +9,17 @@ export default function Home(){
         <div className="potential-jobs-container">
           <p>Potential Job Seekers</p>
           <h2>Explore Current Opportunites</h2>
-          <button>View Open Positions</button>
+          <a href="https://www.indeed.com/cmp/North-South-Consulting-Group-1/jobs?clearPrefilter=1#cmp-skip-header-desktop" target='blank'>
+            <button>View Open Positions</button>
+          </a>
         </div>
         <div className="potential-partners-container">
           <p>Potential Partners</p>
           <h2>Lets's Work Together</h2>
-          <button>Contact Us</button>
+          <Link to='/Contact'>
+            <button>Contact Us</button>
+          </Link>
+          
         </div>
       </div>
 
@@ -58,16 +64,7 @@ export default function Home(){
         </div>
       </div>
 
-      <footer>
-        <ul>
-          <li>Privact Policy</li>
-          <li>Terms & Conditions</li>
-          <li>Contact</li>
-        </ul>
-        <div className="copyright">
-          <p>Copyright © 2021 North South Consulting Group, LLC | Site Design by Pine & Pixels</p>
-        </div>
-      </footer>
+ 
     </div>
   )
 }

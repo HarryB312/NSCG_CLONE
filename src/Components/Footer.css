@@ -1,0 +1,28 @@
+footer {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  margin-top: 50px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+footer ul li:last-child {
+  margin-right: 0;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
