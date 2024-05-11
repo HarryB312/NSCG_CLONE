@@ -28,7 +28,7 @@
 
 .potential-jobs-container button,
 .potential-partners-container button {
-  background-color: #007bff;
+  background-color: orange;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -100,5 +100,7 @@
 .contact button:hover {
   background-color: #0056b3;
 }
+
+
 
 
